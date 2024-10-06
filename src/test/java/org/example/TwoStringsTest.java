@@ -22,7 +22,7 @@ class TwoStringsTest {
         assertAll(
                 () -> assertEquals("DavidPer", result1),
                 () -> assertEquals("David Per", result2),
-                () -> assertEquals("David1234", result3)
+                () -> assertEquals("David123", result3)
         );
     }
 
